@@ -1,2 +1,2 @@
-resource_group_name     = "my-resource-group"
-resource_group_location = "eastus"
+name     = "my-resource-group"
+location = "eastus"
