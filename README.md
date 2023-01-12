@@ -59,7 +59,7 @@ location = "eastus"
 6.  Deploy your resource group:
 
 ```
-terraform apply
+  terraform apply
 ```
 
 7. Enter `yes` at the prompt. It will then take a few minutes to finish running.
@@ -70,7 +70,7 @@ proceeding.
 9. Confirm that the resource group deployed:
 
 ```
-terraform state list
+  terraform state list
 ```
 
 10. Check the returned list of resources to ensure the resource group was successfully deployed.
