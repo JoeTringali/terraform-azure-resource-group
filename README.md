@@ -33,7 +33,7 @@ terminal session:
 2.  Edit the terraform.tfvars file to include the name and location of the resource group to be created:
 
 ```
-name     = "my-resource-group"
+name     = "rg-us-east-my-resource-group"
 location = "eastus"
 ```
 
