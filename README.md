@@ -30,52 +30,52 @@ terminal session:
 1.  Download code from GitHub repo 
     (<https://github.com/JoeTringali/terraform-azure-resource-group-name>).
 
-2.  Edit the terraform.tfvars file to include the name and location of the resource group to be created:
+1.  Edit the terraform.tfvars file to include the name and location of the resource group to be created:
 
-```
-name     = "rg-us-east-my-resource-group"
-location = "eastus"
-```
+    ```
+      name     = "rg-us-east-my-resource-group"
+      location = "eastus"
+    ```
 
-3. Initialize the working directory:
+1. Initialize the working directory:
 
-```
-  terraform init
-```
+    ```
+      terraform init
+    ```
 
-4.  Make sure `providers.tf` is formatted correctly:
+1.  Make sure `providers.tf` is formatted correctly:
 
-```
-  terraform fmt
-```
+    ```
+      terraform fmt
+    ```
 
-5. See what it's expecting for the resource group:
+1. See what it's expecting for the resource group:
 
-```
-  terraform plan
-```
-> You should then see what the outputs will produce.
+    ```
+      terraform plan
+    ```
+    > You should then see what the outputs will produce.
 
-6.  Deploy your resource group:
+1.  Deploy your resource group:
 
-```
-  terraform apply
-```
+    ```
+      terraform apply
+    ```
 
-7. Enter `yes` at the prompt. It will then take a few minutes to finish running.
+1. Enter `yes` at the prompt. It will then take a few minutes to finish running.
 
-8. Monitor the progress and wait for the completion of the ```terraform apply``` command before
+1. Monitor the progress and wait for the completion of the ```terraform apply``` command before
 proceeding.
 
-9. Confirm that the resource group deployed:
+1. Confirm that the resource group deployed:
 
-```
-  terraform state list
-```
+    ```
+      terraform state list
+    ```
 
-10. Check the returned list of resources to ensure the resource group was successfully deployed.
+11. Check the returned list of resources to ensure the resource group was successfully deployed.
 
-11. In the [Azure Portal browser window](https://portal.azure.com/#home), navigate to **Resource groups** and confirm that your resource group is listed.
+1. In the [Azure Portal browser window](https://portal.azure.com/#home), navigate to **Resource groups** and confirm that your resource group is listed.
 
 ## Cleanup
 
